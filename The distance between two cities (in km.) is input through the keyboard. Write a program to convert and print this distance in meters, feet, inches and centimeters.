@@ -1,0 +1,18 @@
+   #include<stdio.h>
+    int main()
+   {
+     	float m,cm,inch,fit,km;
+	
+	    printf ("Enter the distance between two cities in km=");
+	
+	    scanf("%f", &km);
+	    m=1000*km;
+	    cm=1000*100*km;
+	    fit=3280.84*km;
+	    inch=3970.1*km;
+	
+
+	     printf("%.1f km is equal to:\n %f metre\n %f cm\n %f in\n %f fit ",km,m,cm,inch,fit);
+	     return 0;
+	
+    }
